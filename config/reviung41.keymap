@@ -17,7 +17,7 @@
         default_layer {
             // -------------------------------------------------------------------------------------
             // |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  |   BKSP    |
-            // | CTRL |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |    '      |
+            // | LSHIFT |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |    '      |
             // | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | SHFT(RET) |
             //                         | ALT | LWR | SPC | RSE  | ALT |
 
@@ -73,5 +73,13 @@
                                                              &trans             &trans                   &trans                     &trans  &trans
             >;
         };
+
+        mut_layer{
+            bindings  =  < 
+                &rgb RGB_BRD 
+         >; 
+
+        };
+
     };
 };
