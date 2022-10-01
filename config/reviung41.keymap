@@ -76,7 +76,7 @@
 
         mut_layer{
             bindings  =  < 
-                &rgb RGB_BRD 
+                &kp N1 &kp N2 
          >; 
 
         };
