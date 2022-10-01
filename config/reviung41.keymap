@@ -73,13 +73,5 @@
                                                              &trans             &trans                   &trans                     &trans  &trans
             >;
         };
-
-        mut_layer{
-            bindings  =  < 
-                &kp N1 &kp N2 
-         >; 
-
-        };
-
     };
 };
